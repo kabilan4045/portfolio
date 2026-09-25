@@ -10,24 +10,16 @@ export default function Navbar() {
           {site.name}
         </a>
 
-        <div className="flex items-center gap-2">
-          {site.resumeUrl && (
-            <a
-              href={site.resumeUrl}
-              download
-              className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-[#0b2a4a] transition hover:border-gray-300"
-            >
-              <FiDownload aria-hidden="true" />
-              Résumé
-            </a>
-          )}
+        {site.resumeUrl && (
           <a
-            href="#contact"
-            className="inline-flex rounded-full bg-[#0b2a4a] px-5 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-[#123a63]"
+            href={site.resumeUrl}
+            download
+            className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-[#0b2a4a] transition hover:border-gray-300"
           >
-            Hire me
+            <FiDownload aria-hidden="true" />
+            Résumé
           </a>
-        </div>
+        )}
       </nav>
     </header>
   )

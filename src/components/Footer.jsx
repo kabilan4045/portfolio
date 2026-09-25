@@ -1,4 +1,4 @@
-import { FiMail, FiMapPin } from 'react-icons/fi'
+import { FiMapPin } from 'react-icons/fi'
 import { site } from '../data/site'
 
 export default function Footer() {
@@ -13,17 +13,6 @@ export default function Footer() {
             <FiMapPin aria-hidden="true" />
             {site.location}
           </li>
-          {site.email && (
-            <li>
-              <a
-                href={`mailto:${site.email}`}
-                className="inline-flex items-center gap-1.5 transition hover:text-gray-900"
-              >
-                <FiMail aria-hidden="true" />
-                Available for opportunities
-              </a>
-            </li>
-          )}
         </ul>
       </div>
     </footer>
