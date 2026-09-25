@@ -5,9 +5,11 @@ export const moreProjectsUrl = ''
 export const projectTabs = [
   'Websites',
   'Landing Pages',
-  'Full Stack Apps',
-  'Shopify',
+  'WordPress Design & Development',
+  'E-commerce',
   'Headless E-commerce',
+  'Shopify',
+  'Full Stack Apps',
 ]
 
 // `image` is a saved screenshot; without one the card loads a live preview.
@@ -34,7 +36,7 @@ export const projects = [
   {
     title: 'Plots7',
     url: 'https://plots7.com/',
-    tab: 'Full Stack Apps',
+    tab: 'Websites',
     image: '/projects/screens/plots7.jpg',
     category: 'Property Marketplace',
     stack: ['React'],
@@ -162,10 +164,87 @@ export const projects = [
   {
     title: 'Unify Mattress',
     url: 'https://unifymattress.com/',
-    tab: 'Websites',
+    tab: 'E-commerce',
     image: '/projects/screens/unify-mattress.jpg',
     category: 'Mattress Store',
     stack: ['WordPress', 'WooCommerce'],
+  },
+
+  // Landing Pages
+  {
+    title: 'Credo Systemz',
+    url: 'https://credosystemz.in/',
+    tab: 'Landing Pages',
+    image: '/projects/screens/credo-systemz.jpg',
+    category: 'Course Landing Page',
+    stack: ['WordPress', 'Elementor'],
+  },
+  {
+    title: 'Advanced GroHair Ambattur',
+    url: 'https://adgrohairambattur.in/',
+    tab: 'Landing Pages',
+    image: '/projects/screens/advanced-grohair-ambattur.jpg',
+    category: 'Hair Clinic',
+    stack: ['React', 'Next.js'],
+  },
+  {
+    title: 'GroHair & GloSkin Cantonment',
+    url: 'https://adgrohaircantonment.in/',
+    tab: 'Landing Pages',
+    image: '/projects/screens/grohair-gloskin-cantonment.jpg',
+    category: 'Hair & Skin Clinic',
+    stack: ['WordPress', 'Elementor'],
+  },
+  {
+    title: 'Adglo Clinic Porur',
+    url: 'https://adgloclinicporur.in/',
+    tab: 'Landing Pages',
+    image: '/projects/screens/adglo-clinic-porur.jpg',
+    category: 'Skin Clinic',
+    stack: ['WordPress', 'Elementor'],
+  },
+  {
+    title: 'TODS India',
+    url: 'https://www.todsindia.com/tods/',
+    tab: 'Landing Pages',
+    image: '/projects/screens/tods-india.jpg',
+    category: 'Bariatric Surgery',
+    stack: ['WordPress', 'Elementor'],
+  },
+
+  // WordPress Design & Development
+  {
+    title: 'Brandoric',
+    url: 'https://brandoric.com/',
+    tab: 'WordPress Design & Development',
+    image: '/projects/screens/brandoric.jpg',
+    category: 'Digital Marketing Agency',
+    stack: ['WordPress', 'Elementor'],
+  },
+
+  // E-commerce
+  {
+    title: "Cathy's Collectives",
+    url: 'https://cathyscollectives.in/',
+    tab: 'E-commerce',
+    image: '/projects/screens/cathy-s-collectives.jpg',
+    category: 'Fashion & Accessories',
+    stack: ['WordPress', 'Elementor', 'WooCommerce'],
+  },
+  {
+    title: 'Krea Beauty',
+    url: 'https://kreabeauty.com/',
+    tab: 'E-commerce',
+    image: '/projects/screens/krea-beauty.jpg',
+    category: 'Skincare Brand',
+    stack: ['WordPress', 'Elementor', 'WooCommerce'],
+  },
+  {
+    title: 'Formworld',
+    url: 'https://formworld.in/',
+    tab: 'E-commerce',
+    category: 'Online Store',
+    stack: ['WordPress', 'Elementor', 'WooCommerce'],
   },
 
   // Shopify
@@ -214,10 +293,10 @@ export const projects = [
   {
     title: 'The Green Roots',
     url: 'https://www.thegreenroots.in/',
-    tab: 'Headless E-commerce',
+    tab: 'Websites',
     image: '/projects/screens/the-green-roots.jpg',
     category: 'Clothing & Gifts',
-    stack: ['Next.js', 'Headless'],
+    stack: ['Next.js'],
   },
 ]
 

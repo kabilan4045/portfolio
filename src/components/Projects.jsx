@@ -37,7 +37,7 @@ export default function Projects() {
       <div className="mx-auto max-w-6xl">
         <header className="mb-10 max-w-2xl">
           <p className="text-base font-medium text-gray-500">
-            {site.name} · {site.title} · {site.location}
+            {site.name} · {site.location}
           </p>
           <h1 className="mt-3 text-4xl font-medium tracking-tight text-[#0b2a4a] md:text-6xl">
             Selected projects
